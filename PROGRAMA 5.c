@@ -4,17 +4,17 @@
  {
     /* Martínez Lira Irak Emmanuel
        Equipo Los ocho tristes burros
-       25 abr 21
-       Programa numero 5  Pide 2 valores reales y Calcula el area del triangulo*/
+       1 de mayo del 2021
+       Programa numero 1  Identificar cuantas porciones de alimento le toca a cada persona*/
     
-    float base, altura, area;
-    printf("\n Programa 5");
-    printf("\n\n Dame el primer valor");
-    scanf("%f", &base);
-    printf("\n\n Dame el segundo valor");
-    scanf("%f", &altura);
-    area = base * altura /2;
-    printf("\n\n El area del triangulo es %f", area);
+    float numerodepersonas, numerodealimentos, porciones;
+    printf("\n Programa 1");
+    printf("\n\n Dame el numero de personas");
+    scanf("%f", &numerodepersonas);
+    printf("\n\n Dame el numero de alimentos disponibles");
+    scanf("%f", &numerodealimentos);
+    Porciones para cada persona = numerodepersonas /numerodealimentos;
+    printf("\n\n La porcion para dividir equitativamente a cada persona es %f", porciones);
 
     return 0;
 }
